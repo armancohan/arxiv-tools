@@ -38,6 +38,6 @@ Download source files:
 
 This will download all the files in the directory that you designated as output. 
 
-
+If you also need the metadata, use [metha](https://github.com/miku/metha) to bulk download the metadata.
 
 
