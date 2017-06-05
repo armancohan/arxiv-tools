@@ -22,9 +22,9 @@ For PDF documents:
 
 `s3cmd get --requester-pays s3://arxiv/pdf/arXiv_pdf_manifest.xml local-directory/arXiv_pdf_manifest.xml`
 
-For source document:
+For source documents:
 
-`s3cmd get --requester-pays s3://arxiv/src/arXiv_pdf_manifest.xml local-directory/arXiv_src_manifest.xml`
+`s3cmd get --requester-pays s3://arxiv/src/arXiv_src_manifest.xml local-directory/arXiv_src_manifest.xml`
 
 4- Download the actual pdf and source files using the `download.py` script
 
