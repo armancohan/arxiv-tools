@@ -14,7 +14,7 @@ ArXiv provides [bulk data access](https://github.com/user/repo/blob/branch/other
 
 `s3cmd --configure`
 
-3- Get the list of files (in the manifest)
+3- Get the manifest files:
 
 The complete set of arXiv files available from Amazon S3 in requester pays buckets. The files are in .tar format each with ~500MB size. You need to have the keys to these chunks to be able to download them. The complete list of these keys is provided in the `manifest` files. First download the manifests:
 
