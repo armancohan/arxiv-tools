@@ -30,11 +30,11 @@ For source documents:
 
 Download pdf files:
 
-`python download.py --manifest-file /path/to/pdf-manifest --mode pdf --output-dir /path/to/output`
+`python download.py --manifest_file /path/to/pdf-manifest --mode pdf --output_dir /path/to/output`
 
 Download source files:
 
-`python download.py --manifest-file /path/to/src-manifest --mode src --output-dir /path/to/output`
+`python download.py --manifest_file /path/to/src-manifest --mode src --output_dir /path/to/output`
 
 This will download all the files in the directory that you designated as output. 
 
