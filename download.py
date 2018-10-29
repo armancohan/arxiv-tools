@@ -25,7 +25,7 @@ def main(**args):
       if event == 'end':
         if elem.tag == 'filename':
           fname = elem.text
-          get_file(fname, out_dir='data/%s/' % mode)
+          get_file(fname, out_dir='%s/%s/' % (out_dir, mode))
           log_file.write(fname + '\n')
   except:
     traceback.print_exc()
